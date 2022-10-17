@@ -20,7 +20,7 @@
       <ul>
         <li>
           <strong>Element</strong>: An element is a part of a webpage and my contain a data item, a chunk of text, an image, or perhaps
-          nothing. An element typically includes an opening tag with some attributes, enclosed text contect, and a closing
+          nothing. An element typically includes an opening tag with some attributes, enclosed text content, and a closing
           tag.
         </li>
         <ul>
@@ -196,7 +196,9 @@
     <section class="card" id="css-section">
       <h2>CSS</h2>
       <ul>
-        <li>CSS Selectors (Basic)</li>
+        <li>
+          <strong>CSS Selectors (Basic)</strong>-- Selects the HTML element(s) you want to style.
+        </li>
         <ul>
           <li>CSS id Selector:</li> The id selector uses the id attribute of an HTML element to select a specific element.
           <br>To use an id selector, write a hash (#) character, followed by the id of the element.
@@ -209,7 +211,9 @@
           It is best practice to group the selectors to minimize the code.
           <br>To group selectors, separate each selector with a comma.
         </ul>
-        <li>CSS Colors</li>
+        <li>
+          <strong>CSS Colors</strong>-- Specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+        </li>
         <ul>
           <li>CSS Text Color: Sets the color of the text.</li>
           <li>CSS Background Color: Sets the color of the background.</li>
@@ -217,7 +221,9 @@
           <li>CSS Color Values: Colors can be specified using predefined color names (Red, Blue, Violet), RGB values, HEX values,
             RGBA values, and HSLA values.</li>
         </ul>
-        <li>CSS Backgrounds</li>
+        <li>
+          <strong>CSS Backgrounds</strong>-- Used to add background effects for elements.
+        </li>
         <ul>
           <li>background-color: specifies the background color of an element.</li>
           <li>background-image: specifies an image to use as the background of an element.</li>
@@ -228,7 +234,9 @@
             property.
           </li>
         </ul>
-        <li>CSS Borders</li>
+        <li>
+          <strong>CSS Borders</strong>-- Allows you to specify the style, width, and color of an element's border.
+        </li>
         <ul>
           <li>border-style: Specifies what kind of border to display. The following values are allowed:</li>
           <ul>
@@ -251,7 +259,8 @@
           <li>border-radius: This property is used to add rounded borders to an element.</li>
           <li>border shorthand: To shorten the code, it is possible to specify all the individual properties in one property.</li>
         </ul>
-        <li>CSS Margins-- Used to create extra space around an element.</li>
+        <li>
+          <strong>CSS Margins</strong>-- Used to create extra space around an element.</li>
         <ul>
           <li></li>
           <li></li>
@@ -260,7 +269,8 @@
           <li></li>
           <li></li>
         </ul>
-        <li>CSS Padding-- Used to create extra space within an element.</li>
+        <li>
+          <strong>CSS Padding</strong>-- Used to create extra space within an element.</li>
         <ul>
           <li></li>
           <li></li>
@@ -274,7 +284,8 @@
     <section class="card" id="git-section">
       <h2>Git</h2>
       <ul>
-        <li>Setup-- Configuring user information used across all local repositories</li>
+        <li>
+          <strong>Setup</strong>-- Configuring user information used across all local repositories</li>
         <ul>
           <li>git config --global user.name "[firstname lastname]": set a name that is identifiable for credit when review version
             history
@@ -284,12 +295,14 @@
           </li>
           <li>git config --global color.ui auto: set automatic command line coloring for Git for easy reviewing</li>
         </ul>
-        <li>Setup & Init-- Configuring user information, initializing, and cloning repositories</li>
+        <li>
+          <strong>Setup & Init</strong>-- Configuring user information, initializing, and cloning repositories</li>
         <ul>
           <li>git init: initialize an existing directory as a Git repository</li>
           <li>git clone [url]: retrieve an entire repository from a hosted location via URL</li>
         </ul>
-        <li>Stage & Snapshot-- Working with snapshots and the Git staging area</li>
+        <li>
+          <strong>Stage & Snapshot</strong>-- Working with snapshots and the Git staging area</li>
         <ul>
           <li>git status: show modified files in working directory, staged for your next commit</li>
           <li>git add [file]: add a file as it looks now to your next commit</li>
@@ -298,7 +311,8 @@
           <li>git diff --staged: diff of what is staged but not yet commited</li>
           <li>git commit -m "[descriptive message]'</li>
         </ul>
-        <li>Branch & Merge-- Isolating work in branches, changing context, and integrating changes</li>
+        <li>
+          <strong>Branch & Merge</strong>-- Isolating work in branches, changing context, and integrating changes</li>
         <ul>
           <li>git branch: list your branches a * will appear next to the currently active branch</li>
           <li>git branch [branch-name]: create a new branch at the current commit</li>
@@ -306,7 +320,8 @@
           <li>git merge [branch]: merge the specified branch's history into your working directory</li>
           <li>git log: show all commits in the current branch's history</li>
         </ul>
-        <li>Inspect & Compare-- Examing logs, diffs, and object information</li>
+        <li>
+          <strong>Inspect & Compare</strong>-- Examing logs, diffs, and object information</li>
         <ul>
           <li>git log: show the commit history for the currently active branch</li>
           <li>git log branchB..branchA: show the commits on branchA that are not on branchB</li>
@@ -314,13 +329,15 @@
           <li>git diff branchB...branchA: show the diff of what is in branchA that is not in branchB</li>
           <li>git show [SHA]: show any object in Git in human-readable form</li>
         </ul>
-        <li>Tracking Path Changes-- Versioning file removes and path changes</li>
+        <li>
+          <strong>Tracking Path Changes</strong>-- Versioning file removes and path changes</li>
         <ul>
           <li>git rm [file]: delete the file from project and stage the removal for commit</li>
           <li>git mv [existing-path] [new-path]: change an existing file path and stage the move</li>
           <li>git log --stat -M: show all commit logs wiht indication of any paths moved</li>
         </ul>
-        <li>Ignoring Patterns-- Preventing unintentional staging or commiting of files</li>
+        <li>
+          <strong>Ignoring Patterns</strong>-- Preventing unintentional staging or commiting of files</li>
         <ul>
           <li>logs/
             <br>*.notes
@@ -328,7 +345,8 @@
           </li>
           <li>git config --global core.excludefile [file]: system wide ignore pattern for all local repositories</li>
         </ul>
-        <li>Share & Update-- Retreiving updates from another repository and updating local repos</li>
+        <li>
+          <strong>Share & Update</strong>-- Retreiving updates from another repository and updating local repos</li>
         <ul>
           <li>git remote add [alias] [url]: add a Git URL as an alias</li>
           <li>git fetch [alias]: fetch down all the branches from that git remote</li>
@@ -336,12 +354,14 @@
           <li>git push [alias]/[branch]: transmit local branch commits to the remote repository branch</li>
           <li>git pull: fetch and merge any commits from the tracking remote branch</li>
         </ul>
-        <li>Rewrite History-- Rewriting branches, updating commits and clearing history</li>
+        <li>
+          <strong>Rewrite History</strong>-- Rewriting branches, updating commits and clearing history</li>
         <ul>
           <li>git rebase [branch]: apply any commits of current branch ahead of specified one</li>
           <li>git reset --hard [commit]: clear staging area, rewrite working tree from specified commit</li>
         </ul>
-        <li>Temporary Commits-- Temporarily store modified, tracked files in order to change branches</li>
+        <li>
+          <strong>Temporary Commits</strong>-- Temporarily store modified, tracked files in order to change branches</li>
         <ul>
           <li>git stash: save modified and staged changes</li>
           <li>git stash list: list stack-order of stashed file changes</li>

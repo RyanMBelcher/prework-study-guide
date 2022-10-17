@@ -38,3 +38,8 @@ p {
     border: 5px solid blue;
     box-shadow: 5px 10px #888888;
 }
+
+code {
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
